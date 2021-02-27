@@ -17,7 +17,7 @@ def south():
     elif n==3:
         print("Orthopadeic(Bones and Muscles Related) Hospitals in South Bangalore : \n"
               "1. Fortis Hospitals, Bannerghatta Road, Contact Number : 9663367253\n"
-              "2. People Tree Hospitals, Contact number : 9900091881 / 08049599900\n")
+              "2. People Tree Hospitals,SriNagar, Contact number : 9900091881 / 08049599900\n")
     elif n==4:
         print("ENT(Hearing and Speech Related) Hospitals in South Bangalore : \n"
               "1. Fortis Hospitals, Bannerghatta Road, Contact Number : 9663367253\n"
