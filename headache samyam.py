@@ -12,7 +12,7 @@ def headache(age):
             if severity <= 5:
                 if ndays > 5:
                     print("Please consult a doctor")
-                    #hospital(address)
+                    hospital(address)
                 else:
                     if norv.casefold() != y.casefold():
                         print('''try home remedies like:
@@ -43,10 +43,10 @@ Also try avoiding certain foods/beverages like:
                               "      going for any medications")
             else:
                 print("Please consult a doctor")
-                #hospital(address)
+                hospital(address)
         else:
             print("Please consult a doctor")
-            #hospital(address)
+            hospital(address)
     elif 12 <= age <= 15:
         print("Do not worry it's a regular body change that's leading to a headache")
         print('''Try these:
@@ -55,8 +55,7 @@ Also try avoiding certain foods/beverages like:
         3)Hydration''')
     elif age < 12:
         print("Please consult a doctor")
-        #hospital(address)
+        hospital(address)
     else:
         print("Please consult a doctor")
-        #hospital(address)
-headache(30)
+        hospital(address)
