@@ -28,8 +28,7 @@ def headache(age):
                         print('''Try home remedies like:
                         1)Meditation
                         2)Yoga
-                        3)Hydration
-                        
+                        3)Hydration\n                        
 Also try avoiding certain foods/beverages like:
                         1)Red wine
                         2)Chocolate
