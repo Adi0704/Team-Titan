@@ -38,7 +38,7 @@ Also try avoiding certain foods/beverages like:
                         print('''You can also try taking these prescription medications:
                         1)Sumatriptan
                         2)Rizatriptan
-                        3)Eletriptan''')
+                        3)Eletriptan\n''')
                         print("Note: If you are a pregnant woman we suggest you to consult your doctor than\n"
                               "      going for any medications")
             else:
