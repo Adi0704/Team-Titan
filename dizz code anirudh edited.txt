@@ -1,0 +1,37 @@
+def dizziness(age):
+    if age<60:
+        n=input("Is this your 1st incident. Enter Y or N")
+        if n=='Y':
+            print("A")
+            print('''Get emergency medical care if you experience new, severe dizziness or vertigo along with any of the following:
+                1.Sudden, severe headache
+                2.Chest pain
+                3.Difficulty breathing
+                4.Numbness or paralysis of arms or legs
+                5.Fainting
+                6.Double vision
+                7.Rapid or irregular heartbeat
+                8.Confusion or slurred speech
+                9.Stumbling or difficulty walking
+                10.Ongoing vomiting
+                11.Seizures
+                12.A sudden change in hearing
+                13.Facial numbness or weakness''')
+            print("B")
+            k=input("enter A if under A or enter B")
+            if k=='A':
+                hospital(address)
+            else:
+                print("Try the following home remedies")
+                print('''Steps people can take to relieve dizziness include:
+                        1.lying down and closing the eyes.
+                        2.acupuncture.
+                        3.drinking plenty of water and keeping hydrated.
+                        4.reducing stress plus alcohol and tobacco intake.
+                        5.getting plenty of sleep.''')
+        elif n=='N':
+            print("Consult the doctor as soon as possible")
+            hospital(address)
+    else:
+        print("Visit the doctor")
+        hospital(address)
