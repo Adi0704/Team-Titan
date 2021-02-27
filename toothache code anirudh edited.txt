@@ -1,0 +1,31 @@
+def toothache(age):
+    if age>12:
+        print("CATEGORY")
+        print("A")
+        print('''If you experience trouble breathing and swallowing along with your pain.
+                You have a toothache that lasts longer than one or two days.
+                Your toothache is severe.
+                You have a fever, earache or pain when you open your mouth wide.
+                You experience swelling in the mouth or face.''')
+        print("B")
+        print("None of those mentioned under A")
+        n=input("enter A or B based on your symptoms")
+        if n=='A':
+            hospital(address)
+        else:
+            print("Try the following remedies from home AND IF AFTER 2 DAYS YOU STILL EXPERIENCE PAIN VISIT YOUR DENTIST")
+            print('''home remedy
+                    1.Rinse with warm saltwater.
+                    2.Rinse with hydrogen peroxide. A hydrogen peroxide (3% solution) helps to reduce inflammation and pain. Dilute the hydrogen peroxide with equal parts water and rinse thoroughly. Don’t swallow it.
+                    3.Cold compress. For swelling and pain hold a cold compress of ice wrapped in a towel to the painful area for 20-minute periods. Repeat every few hours.
+                    4.Pain medications. Over-the-counter pain medications can reduce pain and inflammation. NSAIDs (nonsteroidal anti-inflammatory drugs) such as aspirin, ibuprofen (Motrin®, Advil®) and naproxen (Aleve®) can be used, or take acetaminophen (Tylenol®) if you can’t take NSAIDs. 
+                    DON'T GIVE A CHILD UNDER THE AGE OF 16 aspirin; use Tylenol instead.''')
+            print('''Natural or herbal treatments
+
+                    1.Clove oil. A natural antiseptic that numbs pain and reduces inflammation. Dab a small amount of clove oil on a cotton ball and apply to the painful area. Or add a drop of clove oil to a small glass of water and rinse your mouth thoroughly.
+                    2.Vanilla extract. The alcohol in vanilla extract numbs pain temporarily and its antioxidants help the area heal. Use your fingertips or cotton ball to apply the extract to the tooth and gum a few times a day.
+                    3.Peppermint tea. Peppermint’s soothing properties can be applied to the painful area with a cooled down peppermint tea bag. Hold this warm tea bag against the tooth and gum.
+                    4.Garlic. Make a paste of a crushed garlic clove and apply to the affected area. Garlic can kill bacteria (it contains the antimicrobial allicin) and relieve pain.''')
+    else:
+        hospital(address)
+    
