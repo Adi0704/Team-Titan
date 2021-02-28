@@ -227,7 +227,7 @@ def central():
 
 def dizziness(age):
     if age<60:
-        n=input(Fore.MAGENTA+"Is this your 1st incident. Enter Y or N")
+        n=input(Fore.MAGENTA+"Is this your 1st incident. Enter Y or N : ")
         if n=='Y'or n=='y':
             print(Fore.MAGENTA+" Symptoms A")
             print(Fore.GREEN+"Get emergency medical care if you experience new, severe dizziness or vertigo along with any of the following:\n"
@@ -273,7 +273,7 @@ def cold(age):
         hospital(address)
     else:
         if age > 6:
-            d = input(Fore.MAGENTA+"Enter A:If duration of cold less than 3 days,\nB:if duration of cold more thn 3 days and less than 8,\nC:if 8 or more days")
+            d = input(Fore.MAGENTA+"Enter A:If duration of cold less than 3 days,\nB:if duration of cold more thn 3 days and less than 8,\nC:if 8 or more days : ")
             if d == 'A'or d=='a':
 
                 print(Fore.MAGENTA+'''Home remedies
@@ -345,12 +345,12 @@ def toothache(age):
 def headache(age):
     y = "yes"
     if 15 < age <= 30:
-        ndays = int(input(Fore.MAGENTA+"Enter number of days symptom has been existent from\n"))
-        n = input(Fore.MAGENTA+"Do you experience headache frequently? Yes/No\n")
+        ndays = int(input(Fore.MAGENTA+"Enter number of days symptom has been existent from\n : "))
+        n = input(Fore.MAGENTA+"Do you experience headache frequently? Yes/No\n : ")
         if n.casefold() != y.casefold():
-            print(Fore.MAGENTA+"Enter severity of the headache on a range of 1-10")
+            print(Fore.MAGENTA+"Enter severity of the headache on a range of 1-10 : ")
             severity = int(input())
-            print(Fore.MAGENTA+"Are you experiencing Nausea or Vomiting as well? Yes/No")
+            print(Fore.MAGENTA+"Are you experiencing Nausea or Vomiting as well? Yes/No : ")
             norv = input()
             if severity <= 5:
                 if ndays > 5:
